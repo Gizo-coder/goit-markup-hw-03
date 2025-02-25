@@ -146,7 +146,7 @@ div {
 }
 .employees {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 .emp_h {
     font-weight: 500;
@@ -251,6 +251,9 @@ div {
     letter-spacing: 0.02em;
     color: #434455;
 }
+a{
+    display: inline-block;
+}
 a:link {
     text-decoration: none;
 }
@@ -259,9 +262,6 @@ a:hover{
 }
 a:focus{
     color: #404bbf;
-}
-a {
-    display: inline-block;
 }
 body{
     color: #434455;
