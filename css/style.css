@@ -166,7 +166,7 @@ div {
 }
 .sec_four {
     padding: 120px 0;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .port_htwo {
     font-size: 36px;
@@ -184,10 +184,11 @@ div {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .list_liii {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .div_ {
     padding: 32px 16px;
@@ -202,14 +203,12 @@ div {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 .port-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: calc((100% - 72px) / 4);
 }
 .parag_two {
     line-height: 1.5;
