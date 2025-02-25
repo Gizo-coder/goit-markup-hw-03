@@ -22,6 +22,7 @@ div {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: inline-block;
 }
 .nav{
     display: flex;
@@ -219,7 +220,7 @@ div {
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;
-
+    display: inline-block;
 }
 .span{
     color: #f4f4fd;
