@@ -166,6 +166,7 @@ div {
 }
 .sec_four {
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 }
 .port_htwo {
     font-size: 36px;
@@ -183,7 +184,6 @@ div {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 72px) / 4);
 }
 .list_liii {
     background-color: #ffffff;
