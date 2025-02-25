@@ -1,3 +1,8 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
 h1,h2,h3,h4,h5,h6,p,ul{
     margin: 0;
@@ -26,7 +31,7 @@ div {
     display: flex;
     gap: 40px;
 }
-.list_li {
+.studio {
     padding: 24px 0;
 }
 .list_ula {
@@ -259,7 +264,8 @@ body{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
-.logo_ {
-    display: inline-block;
+footer .logo_ {
     margin-bottom: 16px;
+    display: inline-block;
+
     }
