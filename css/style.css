@@ -120,7 +120,7 @@ div {
     display: flex;
     gap: 24px;
 }
-.emplosyee {
+.employees {
     border-radius: 0px 0px 4px 4px;
 }
 .div{
@@ -186,7 +186,7 @@ div {
 }
 .list_liii {
     background-color: #ffffff;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .div_ {
     padding: 32px 16px;
@@ -274,6 +274,5 @@ body{
     color: #4d5ae5;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
