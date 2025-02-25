@@ -183,6 +183,7 @@ div {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 72px) / 4);
 }
 .list_liii {
     background-color: #ffffff;
