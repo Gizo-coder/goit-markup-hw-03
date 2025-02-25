@@ -22,7 +22,6 @@ div {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: inline-block;
 }
 .nav{
     display: flex;
@@ -255,7 +254,7 @@ div {
     letter-spacing: 0.02em;
     color: #434455;
 }
-a{
+a {
     display: inline-block;
 }
 a:link {
