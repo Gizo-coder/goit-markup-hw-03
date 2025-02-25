@@ -253,18 +253,15 @@ div {
 }
 a:link {
     text-decoration: none;
-    display: inline-block
 }
 a:hover{
     color: #404bbf;
-    display: inline-block
 }
 a:focus{
     color: #404bbf;
-    display: inline-block
 }
 a {
-    display: inline-block
+    display: inline-block;
 }
 body{
     color: #434455;
