@@ -90,7 +90,7 @@ div {
     gap: 24px;
 }
 .list_lii {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .button:hover {
     background-color: #404BBF;
@@ -120,7 +120,7 @@ div {
     display: flex;
     gap: 24px;
 }
-.img_list {
+.emplosyee > .img_list {
    border-radius: 0px 0px 4px 4px;
 }
 .div{
