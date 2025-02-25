@@ -192,6 +192,7 @@ div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
+    width: calc((100% - 72px) / 4);
 }
 .port_hthree {
     font-weight: 500;
@@ -200,12 +201,14 @@ div {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 .port-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: calc((100% - 72px) / 4);
 }
 .parag_two {
     line-height: 1.5;
@@ -216,7 +219,6 @@ div {
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;
-    display: inline-block;
 
 }
 .span{
@@ -279,4 +281,5 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
 }
